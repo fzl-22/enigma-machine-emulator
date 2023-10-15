@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src//CMakeFiles/progress.marks
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named enigma-emulator
+# Convenience name for target.
+src/CMakeFiles/enigma-emulator.dir/rule:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/enigma-emulator.dir/rule
+.PHONY : src/CMakeFiles/enigma-emulator.dir/rule
 
-# Build rule for target.
-enigma-emulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enigma-emulator
+# Convenience name for target.
+enigma-emulator: src/CMakeFiles/enigma-emulator.dir/rule
 .PHONY : enigma-emulator
 
 # fast build rule for target.
 enigma-emulator/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/build
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/build
 .PHONY : enigma-emulator/fast
 
-#=============================================================================
-# Target rules for targets named main
+keyboard.o: keyboard.cpp.o
+.PHONY : keyboard.o
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+# target to build an object file
+keyboard.cpp.o:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.o
+.PHONY : keyboard.cpp.o
 
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/build
-.PHONY : main/fast
+keyboard.i: keyboard.cpp.i
+.PHONY : keyboard.i
+
+# target to preprocess a source file
+keyboard.cpp.i:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.i
+.PHONY : keyboard.cpp.i
+
+keyboard.s: keyboard.cpp.s
+.PHONY : keyboard.s
+
+# target to generate assembly for a file
+keyboard.cpp.s:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.s
+.PHONY : keyboard.cpp.s
 
 # Help Target
 help:
@@ -151,7 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... enigma-emulator"
-	@echo "... main"
+	@echo "... keyboard.o"
+	@echo "... keyboard.i"
+	@echo "... keyboard.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -63,42 +63,119 @@ CMAKE_BINARY_DIR = /home/ahmadfaisal/Documents/College/Semester_5/keamanan-infor
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: include/all
+all: src/all
+all: examples/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: include/preinstall
+preinstall: src/preinstall
+preinstall: examples/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: include/clean
+clean: src/clean
+clean: examples/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Directory level rules for directory examples
+
+# Recursive "all" directory target.
+examples/all: examples/CMakeFiles/main.dir/all
+.PHONY : examples/all
+
+# Recursive "preinstall" directory target.
+examples/preinstall:
+.PHONY : examples/preinstall
+
+# Recursive "clean" directory target.
+examples/clean: examples/CMakeFiles/main.dir/clean
+.PHONY : examples/clean
+
+#=============================================================================
+# Directory level rules for directory include
+
+# Recursive "all" directory target.
+include/all:
+.PHONY : include/all
+
+# Recursive "preinstall" directory target.
+include/preinstall:
+.PHONY : include/preinstall
+
+# Recursive "clean" directory target.
+include/clean:
+.PHONY : include/clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/enigma-emulator.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/enigma-emulator.dir/clean
+.PHONY : src/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/enigma-emulator.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+src/CMakeFiles/enigma-emulator.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=1,2 "Built target enigma-emulator"
+.PHONY : src/CMakeFiles/enigma-emulator.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+src/CMakeFiles/enigma-emulator.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/enigma-emulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : src/CMakeFiles/enigma-emulator.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
+enigma-emulator: src/CMakeFiles/enigma-emulator.dir/rule
+.PHONY : enigma-emulator
+
+# clean rule for target.
+src/CMakeFiles/enigma-emulator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/clean
+.PHONY : src/CMakeFiles/enigma-emulator.dir/clean
+
+#=============================================================================
+# Target rules for target examples/CMakeFiles/main.dir
+
+# All Build rule for target.
+examples/CMakeFiles/main.dir/all: src/CMakeFiles/enigma-emulator.dir/all
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=3,4 "Built target main"
+.PHONY : examples/CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+examples/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles 0
+.PHONY : examples/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: examples/CMakeFiles/main.dir/rule
 .PHONY : main
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+examples/CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/clean
+.PHONY : examples/CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

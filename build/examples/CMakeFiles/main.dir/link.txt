@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/main.dir/main.cpp.o -o main  ../src/libenigma-emulator.a 

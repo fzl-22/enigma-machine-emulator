@@ -1,0 +1,2 @@
+/usr/bin/ar qc libenigma-emulator.a CMakeFiles/enigma-emulator.dir/keyboard.cpp.o
+/usr/bin/ranlib libenigma-emulator.a

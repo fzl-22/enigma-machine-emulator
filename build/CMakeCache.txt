@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Whether or not to build examples
+BUILD_EXAMPLES:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -142,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Enigma
+CMAKE_PROJECT_NAME:STATIC=EnigmaEmulator
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -205,6 +208,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+EnigmaEmulator_BINARY_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/examples
+
+//Value Computed by CMake
+EnigmaEmulator_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+EnigmaEmulator_SOURCE_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/examples
 
 //Value Computed by CMake
 Enigma_BINARY_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build
@@ -318,7 +330,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
