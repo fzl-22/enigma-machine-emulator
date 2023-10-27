@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-examples/CMakeFiles/main.dir/rule:
-	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/main.dir/rule
-.PHONY : examples/CMakeFiles/main.dir/rule
+examples/CMakeFiles/enigma.dir/rule:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/enigma.dir/rule
+.PHONY : examples/CMakeFiles/enigma.dir/rule
 
 # Convenience name for target.
-main: examples/CMakeFiles/main.dir/rule
-.PHONY : main
+enigma: examples/CMakeFiles/enigma.dir/rule
+.PHONY : enigma
 
 # fast build rule for target.
-main/fast:
-	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/build
-.PHONY : main/fast
+enigma/fast:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/enigma.dir/build.make examples/CMakeFiles/enigma.dir/build
+.PHONY : enigma/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/main.cpp.o
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/enigma.dir/build.make examples/CMakeFiles/enigma.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/main.cpp.i
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/enigma.dir/build.make examples/CMakeFiles/enigma.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/main.cpp.s
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/enigma.dir/build.make examples/CMakeFiles/enigma.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... enigma"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

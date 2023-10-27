@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=EnigmaEmulator
+CMAKE_PROJECT_NAME:STATIC=EnigmaMachineEmulator
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -217,6 +217,15 @@ EnigmaEmulator_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 EnigmaEmulator_SOURCE_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/examples
+
+//Value Computed by CMake
+EnigmaMachineEmulator_BINARY_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/examples
+
+//Value Computed by CMake
+EnigmaMachineEmulator_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+EnigmaMachineEmulator_SOURCE_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/examples
 
 //Value Computed by CMake
 Enigma_BINARY_DIR:STATIC=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build

@@ -1,5 +1,5 @@
-examples/CMakeFiles/main.dir/main.cpp.o: \
- /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/examples/main.cpp \
+examples/CMakeFiles/enigma.dir/enigma.cpp.o: \
+ /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/examples/enigma.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

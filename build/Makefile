@@ -130,17 +130,17 @@ enigma-emulator/fast:
 .PHONY : enigma-emulator/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named enigma
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+enigma: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enigma
+.PHONY : enigma
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/main.dir/build.make examples/CMakeFiles/main.dir/build
-.PHONY : main/fast
+enigma/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/enigma.dir/build.make examples/CMakeFiles/enigma.dir/build
+.PHONY : enigma/fast
 
 # Help Target
 help:
@@ -150,8 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... enigma"
 	@echo "... enigma-emulator"
-	@echo "... main"
 .PHONY : help
 
 

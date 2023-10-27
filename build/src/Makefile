@@ -154,6 +154,78 @@ keyboard.cpp.s:
 	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.s
 .PHONY : keyboard.cpp.s
 
+plugboard.o: plugboard.cpp.o
+.PHONY : plugboard.o
+
+# target to build an object file
+plugboard.cpp.o:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o
+.PHONY : plugboard.cpp.o
+
+plugboard.i: plugboard.cpp.i
+.PHONY : plugboard.i
+
+# target to preprocess a source file
+plugboard.cpp.i:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.i
+.PHONY : plugboard.cpp.i
+
+plugboard.s: plugboard.cpp.s
+.PHONY : plugboard.s
+
+# target to generate assembly for a file
+plugboard.cpp.s:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.s
+.PHONY : plugboard.cpp.s
+
+reflector.o: reflector.cpp.o
+.PHONY : reflector.o
+
+# target to build an object file
+reflector.cpp.o:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o
+.PHONY : reflector.cpp.o
+
+reflector.i: reflector.cpp.i
+.PHONY : reflector.i
+
+# target to preprocess a source file
+reflector.cpp.i:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/reflector.cpp.i
+.PHONY : reflector.cpp.i
+
+reflector.s: reflector.cpp.s
+.PHONY : reflector.s
+
+# target to generate assembly for a file
+reflector.cpp.s:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/reflector.cpp.s
+.PHONY : reflector.cpp.s
+
+rotor.o: rotor.cpp.o
+.PHONY : rotor.o
+
+# target to build an object file
+rotor.cpp.o:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o
+.PHONY : rotor.cpp.o
+
+rotor.i: rotor.cpp.i
+.PHONY : rotor.i
+
+# target to preprocess a source file
+rotor.cpp.i:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/rotor.cpp.i
+.PHONY : rotor.cpp.i
+
+rotor.s: rotor.cpp.s
+.PHONY : rotor.s
+
+# target to generate assembly for a file
+rotor.cpp.s:
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/enigma-emulator.dir/build.make src/CMakeFiles/enigma-emulator.dir/rotor.cpp.s
+.PHONY : rotor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +238,15 @@ help:
 	@echo "... keyboard.o"
 	@echo "... keyboard.i"
 	@echo "... keyboard.s"
+	@echo "... plugboard.o"
+	@echo "... plugboard.i"
+	@echo "... plugboard.s"
+	@echo "... reflector.o"
+	@echo "... reflector.i"
+	@echo "... reflector.s"
+	@echo "... rotor.o"
+	@echo "... rotor.i"
+	@echo "... rotor.s"
 .PHONY : help
 
 

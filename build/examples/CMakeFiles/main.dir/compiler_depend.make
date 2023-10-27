@@ -211,8 +211,17 @@ examples/CMakeFiles/main.dir/main.cpp.o: ../examples/main.cpp \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../include/enigma-emulator/keyboard.h
+  ../include/enigma-machine-emulator/keyboard.h \
+  ../include/enigma-machine-emulator/plugboard.h \
+  ../include/enigma-machine-emulator/rotor.h \
+  ../include/enigma-machine-emulator/reflector.h
 
+
+../include/enigma-machine-emulator/rotor.h:
+
+../include/enigma-machine-emulator/plugboard.h:
+
+../include/enigma-machine-emulator/keyboard.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -392,6 +401,8 @@ examples/CMakeFiles/main.dir/main.cpp.o: ../examples/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+../include/enigma-machine-emulator/reflector.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
@@ -453,8 +464,6 @@ examples/CMakeFiles/main.dir/main.cpp.o: ../examples/main.cpp \
 /usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-../include/enigma-emulator/keyboard.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 

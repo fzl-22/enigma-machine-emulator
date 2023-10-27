@@ -212,5 +212,8 @@ examples/CMakeFiles/main.dir/main.cpp.o
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/c++/11/bits/erase_if.h
  /usr/include/c++/11/pstl/execution_defs.h
- /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/include/enigma-emulator/keyboard.h
+ /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/include/enigma-machine-emulator/keyboard.h
+ /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/include/enigma-machine-emulator/plugboard.h
+ /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/include/enigma-machine-emulator/rotor.h
+ /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/include/enigma-machine-emulator/reflector.h
 

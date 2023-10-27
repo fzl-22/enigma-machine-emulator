@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/enigma-emulator.dir/DependInfo.cmake"
-  "examples/CMakeFiles/main.dir/DependInfo.cmake"
+  "examples/CMakeFiles/enigma.dir/DependInfo.cmake"
   )

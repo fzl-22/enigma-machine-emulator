@@ -83,17 +83,65 @@ src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enigma-emulator.dir/keyboard.cpp.s"
 	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/keyboard.cpp -o CMakeFiles/enigma-emulator.dir/keyboard.cpp.s
 
+src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o: src/CMakeFiles/enigma-emulator.dir/flags.make
+src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o: ../src/plugboard.cpp
+src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o: src/CMakeFiles/enigma-emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o -MF CMakeFiles/enigma-emulator.dir/plugboard.cpp.o.d -o CMakeFiles/enigma-emulator.dir/plugboard.cpp.o -c /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/plugboard.cpp
+
+src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enigma-emulator.dir/plugboard.cpp.i"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/plugboard.cpp > CMakeFiles/enigma-emulator.dir/plugboard.cpp.i
+
+src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enigma-emulator.dir/plugboard.cpp.s"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/plugboard.cpp -o CMakeFiles/enigma-emulator.dir/plugboard.cpp.s
+
+src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o: src/CMakeFiles/enigma-emulator.dir/flags.make
+src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o: ../src/rotor.cpp
+src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o: src/CMakeFiles/enigma-emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o -MF CMakeFiles/enigma-emulator.dir/rotor.cpp.o.d -o CMakeFiles/enigma-emulator.dir/rotor.cpp.o -c /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/rotor.cpp
+
+src/CMakeFiles/enigma-emulator.dir/rotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enigma-emulator.dir/rotor.cpp.i"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/rotor.cpp > CMakeFiles/enigma-emulator.dir/rotor.cpp.i
+
+src/CMakeFiles/enigma-emulator.dir/rotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enigma-emulator.dir/rotor.cpp.s"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/rotor.cpp -o CMakeFiles/enigma-emulator.dir/rotor.cpp.s
+
+src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o: src/CMakeFiles/enigma-emulator.dir/flags.make
+src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o: ../src/reflector.cpp
+src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o: src/CMakeFiles/enigma-emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o -MF CMakeFiles/enigma-emulator.dir/reflector.cpp.o.d -o CMakeFiles/enigma-emulator.dir/reflector.cpp.o -c /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/reflector.cpp
+
+src/CMakeFiles/enigma-emulator.dir/reflector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enigma-emulator.dir/reflector.cpp.i"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/reflector.cpp > CMakeFiles/enigma-emulator.dir/reflector.cpp.i
+
+src/CMakeFiles/enigma-emulator.dir/reflector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enigma-emulator.dir/reflector.cpp.s"
+	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/src/reflector.cpp -o CMakeFiles/enigma-emulator.dir/reflector.cpp.s
+
 # Object files for target enigma-emulator
 enigma__emulator_OBJECTS = \
-"CMakeFiles/enigma-emulator.dir/keyboard.cpp.o"
+"CMakeFiles/enigma-emulator.dir/keyboard.cpp.o" \
+"CMakeFiles/enigma-emulator.dir/plugboard.cpp.o" \
+"CMakeFiles/enigma-emulator.dir/rotor.cpp.o" \
+"CMakeFiles/enigma-emulator.dir/reflector.cpp.o"
 
 # External object files for target enigma-emulator
 enigma__emulator_EXTERNAL_OBJECTS =
 
 src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/keyboard.cpp.o
+src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/plugboard.cpp.o
+src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/rotor.cpp.o
+src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/reflector.cpp.o
 src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/build.make
 src/libenigma-emulator.a: src/CMakeFiles/enigma-emulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libenigma-emulator.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libenigma-emulator.a"
 	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && $(CMAKE_COMMAND) -P CMakeFiles/enigma-emulator.dir/cmake_clean_target.cmake
 	cd /home/ahmadfaisal/Documents/College/Semester_5/keamanan-informasi-dan-jaringan/enigma-machine/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enigma-emulator.dir/link.txt --verbose=$(VERBOSE)
 
