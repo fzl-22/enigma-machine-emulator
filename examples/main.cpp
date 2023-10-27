@@ -22,6 +22,8 @@ int main(int argc, char *argv[]){
 
   // signal initialization
   int signal;
+
+  // result initialization
   std::string result = "";
 
   // keyboard initialization
