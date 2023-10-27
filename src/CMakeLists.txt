@@ -1,6 +1,6 @@
-project(EnigmaEmulator)
+project(EnigmaMachineEmulator)
 
-add_library(enigma-emulator keyboard.cpp)
+add_library(enigma-emulator keyboard.cpp plugboard.cpp rotor.cpp reflector.cpp)
 
 target_include_directories(enigma-emulator
     PUBLIC
