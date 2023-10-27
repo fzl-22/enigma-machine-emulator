@@ -4,4 +4,4 @@ mkdir -p build
 cd build
 cmake ..
 make
-mv examples/enigma /usr/bin
+cp examples/enigma /usr/bin
