@@ -1,2 +1,0 @@
-/usr/bin/ar qc libenigma-emulator.a CMakeFiles/enigma-emulator.dir/keyboard.cpp.o CMakeFiles/enigma-emulator.dir/plugboard.cpp.o CMakeFiles/enigma-emulator.dir/rotor.cpp.o CMakeFiles/enigma-emulator.dir/reflector.cpp.o
-/usr/bin/ranlib libenigma-emulator.a
