@@ -62,6 +62,8 @@ int main(int argc, char *argv[]){
     std::cout << letter;
   }
 
+  std::cout << std::endl;
+
 
   return 0;
 }
