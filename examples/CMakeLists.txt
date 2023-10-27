@@ -1,9 +1,9 @@
-project(EnigmaEmulator)
+project(EnigmaMachineEmulator)
 
-add_executable(main main.cpp)
+add_executable(enigma main.cpp)
 
 target_link_libraries(
-  main
+  enigma
   PRIVATE
   enigma-emulator
 )
