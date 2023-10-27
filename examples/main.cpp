@@ -1,8 +1,7 @@
 /*
-  Reflector : A
-  Rotors    : I-II-III
+  Reflector : reflector
+  Rotors    : I-II-III-IV-V
   Plugboard : A-R, G-K, O-X
-  Message   : A ==> X
 */
 
 #include <iostream>
@@ -20,9 +19,10 @@ int main(int argc, char *argv[]){
     std::cout << "Usage:./enigma-machine-emulator <string>" << std::endl;
     return 0;
   }
+
   // signal initialization
   int signal;
-
+  std::string result = "";
 
   // keyboard initialization
   Keyboard keyboard;
@@ -40,6 +40,7 @@ int main(int argc, char *argv[]){
   // Reflector initialization
   Reflector reflector("EJMZALYXVBWFCRQUONTSPIKHGD");
 
+  // Run Enigma cipher
   for(char character : std::string(argv[1])){
     char letter = character;
 
@@ -59,11 +60,10 @@ int main(int argc, char *argv[]){
     signal = plugboard.backward(signal);
     letter = keyboard.backward(signal);
 
-    std::cout << letter;
+    result = result + letter;
   }
 
-  std::cout << std::endl;
-
+  std::cout << result << std::endl;
 
   return 0;
 }
