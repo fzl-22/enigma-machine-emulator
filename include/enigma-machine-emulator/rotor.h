@@ -12,10 +12,4 @@ class Rotor{
     int forward(int signal);
 
     int backward(int signal);
-
-    void rotate(int n);
-
-    void rotateToLetter(char letter);
-
-    void show();
 };
