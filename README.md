@@ -59,3 +59,7 @@ Then, the output will be:
 ```
 JOHNDOE
 ```
+
+## Screenshot
+
+![](./assets/enigma.png)
